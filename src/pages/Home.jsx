@@ -1,7 +1,9 @@
+import HomeCardContainer from "../components/HomeCardContainer";
+
 const Home = () => {
   return (
     <main>
-      <h1>Home</h1>
+      <HomeCardContainer></HomeCardContainer>
     </main>
   );
 };
