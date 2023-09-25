@@ -12,7 +12,7 @@ const HomeCard = ({ data }) => {
       onClick={() => navigate(`/details/${id}`)}
     >
       <img
-        src={images.home_card_img}
+        src={images.image_1}
         alt="Card Thumbnail"
         className="w-full rounded-t-lg"
       />

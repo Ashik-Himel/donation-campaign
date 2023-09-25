@@ -41,7 +41,7 @@ const DonationDetails = () => {
       <section>
         <div className="container">
           <div className="relative mb-8">
-            <img src={images?.details_img} alt="Details Image" className="w-full rounded-md" />
+            <img src={images?.image_1} alt="Details Image" className="w-full rounded-md" />
             <div className="absolute bottom-0 left-0 right-0 bg-[rgba(11,11,11,0.50)] rounded-b-md">
               <button className="btn bg-[#FF444A] text-white hover:bg-[#FF444A] border-[#FF444A] hover:border-[#FF444A] normal-case text-base m-6" onClick={() => handleClick(id)}>Donate ${price}</button>
             </div>

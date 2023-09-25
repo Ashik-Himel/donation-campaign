@@ -3,9 +3,8 @@
     "id": 1,
     "title": "First Aid Kits",
     "images": {
-      "home_card_img": "/images/health.png",
-      "donation_card_img": "/images/health-2.png",
-      "details_img": "/images/health-details.png"
+      "image_1": "/images/health.png",
+      "image_2": "/images/health-2.png"
     },
     "category": "Health",
     "colors": {
@@ -13,16 +12,15 @@
       "card_bg": "rgba(0,82,255,0.15)",
       "cat_bg": "rgba(0,82,255,0.20)"
     },
-    "price": 275,
-    "description": "Help us make a difference by providing essential first aid kits to those in need. Your donation of $275 ensures that vulnerable individuals and communities have access to crucial medical supplies. By contributing, you become a lifeline in emergencies, promoting safety and well-being. Together, we can ensure that nobody is left helpless during times of crisis."
+    "price": 275.00,
+    "description": "Help us make a difference by providing essential first aid kits to those in need. Your donation of $275.00 ensures that vulnerable individuals and communities have access to crucial medical supplies. By contributing, you become a lifeline in emergencies, promoting safety and well-being. Together, we can ensure that nobody is left helpless during times of crisis."
   },
   {
     "id": 2,
     "title": "School Supplies",
     "images": {
-      "home_card_img": "/images/education.png",
-      "donation_card_img": "/images/education-2.png",
-      "details_img": "/images/education-details.png"
+      "image_1": "/images/education.png",
+      "image_2": "/images/education-2.png"
     },
     "category": "Education",
     "colors": {
@@ -30,16 +28,15 @@
       "card_bg": "rgba(255,68,74,0.15)",
       "cat_bg": "rgba(255,68,74,0.20)"
     },
-    "price": 302,
-    "description": "Support the dreams of young learners with your $302 donation. By providing school supplies, you're helping to create a brighter future for students who may not have access to essential learning materials. Your generosity empowers these children to pursue education, gain knowledge, and work towards a better tomorrow. Join us in building a stronger, more educated world, one pencil and notebook at a time."
+    "price": 302.00,
+    "description": "Support the dreams of young learners with your $302.00 donation. By providing school supplies, you're helping to create a brighter future for students who may not have access to essential learning materials. Your generosity empowers these children to pursue education, gain knowledge, and work towards a better tomorrow. Join us in building a stronger, more educated world, one pencil and notebook at a time."
   },
   {
     "id": 3,
     "title": "Warm Winter Coats",
     "images": {
-      "home_card_img": "/images/clothing.png",
-      "donation_card_img": "/images/clothing-2.png",
-      "details_img": "/images/clothing-details.png"
+      "image_1": "/images/clothing.png",
+      "image_2": "/images/clothing-2.png"
     },
     "category": "Clothing",
     "colors": {
@@ -47,16 +44,15 @@
       "card_bg": "rgba(121,194,63,0.15)",
       "cat_bg": "rgba(121,194,63,0.20)"
     },
-    "price": 449,
-    "description": "Winter can be harsh, especially for those in need. Your donation of $449 can make a significant impact by providing warm winter coats to individuals facing cold temperatures. These coats don't just offer physical warmth; they provide a sense of security and comfort, reminding recipients that they are cared for. Help us spread the warmth of compassion and protect vulnerable members of our community during the coldest months."
+    "price": 449.00,
+    "description": "Winter can be harsh, especially for those in need. Your donation of $449.00 can make a significant impact by providing warm winter coats to individuals facing cold temperatures. These coats don't just offer physical warmth; they provide a sense of security and comfort, reminding recipients that they are cared for. Help us spread the warmth of compassion and protect vulnerable members of our community during the coldest months."
   },
   {
     "id": 4,
     "title": "Food Pantry Essentials",
     "images": {
-      "home_card_img": "/images/food.png",
-      "donation_card_img": "/images/food-2.png",
-      "details_img": "/images/food-details.png"
+      "image_1": "/images/food.png",
+      "image_2": "/images/food-2.png"
     },
     "category": "Food",
     "colors": {
@@ -64,16 +60,15 @@
       "card_bg": "rgba(248,113,71,0.15)",
       "cat_bg": "rgba(248,113,71,0.20)"
     },
-    "price": 350,
-    "description": "Hunger is an ongoing challenge for many families. Your $350 donation supports local food pantries by providing essential nutritious items. By contributing, you help ensure that nobody in our community goes to bed hungry. Together, we can make a difference, one meal at a time, and create a stronger, more resilient society where everyone has access to the sustenance they need."
+    "price": 350.00,
+    "description": "Hunger is an ongoing challenge for many families. Your $350.00 donation supports local food pantries by providing essential nutritious items. By contributing, you help ensure that nobody in our community goes to bed hungry. Together, we can make a difference, one meal at a time, and create a stronger, more resilient society where everyone has access to the sustenance they need."
   },
   {
     "id": 5,
     "title": "Winter Hats and Gloves",
     "images": {
-      "home_card_img": "/images/clothing.png",
-      "donation_card_img": "/images/clothing-2.png",
-      "details_img": "/images/clothing-details.png"
+      "image_1": "/images/clothing.png",
+      "image_2": "/images/clothing-2.png"
     },
     "category": "Clothing",
     "colors": {
@@ -81,16 +76,15 @@
       "card_bg": "rgba(121,194,63,0.15)",
       "cat_bg": "rgba(121,194,63,0.20)"
     },
-    "price": 389,
-    "description": "Winter's chill can be unforgiving, especially for those without warm clothing. Your $389 donation helps provide winter hats and gloves, offering comfort and protection against the cold. Your act of kindness ensures that individuals in need can face the winter season with dignity and warmth. Together, we can make a difference, one cozy accessory at a time."
+    "price": 389.00,
+    "description": "Winter's chill can be unforgiving, especially for those without warm clothing. Your $389.00 donation helps provide winter hats and gloves, offering comfort and protection against the cold. Your act of kindness ensures that individuals in need can face the winter season with dignity and warmth. Together, we can make a difference, one cozy accessory at a time."
   },
   {
     "id": 6,
     "title": "Prescription Medications",
     "images": {
-      "home_card_img": "/images/health.png",
-      "donation_card_img": "/images/health-2.png",
-      "details_img": "/images/health-details.png"
+      "image_1": "/images/health.png",
+      "image_2": "/images/health-2.png"
     },
     "category": "Health",
     "colors": {
@@ -98,16 +92,15 @@
       "card_bg": "rgba(0,82,255,0.15)",
       "cat_bg": "rgba(0,82,255,0.20)"
     },
-    "price": 475,
-    "description": "Medications can be life-saving, but they can also be costly. Your generous $475 donation helps cover the expenses of essential prescription medications for those who cannot afford them. Your contribution directly impacts the health and well-being of individuals, ensuring they receive the treatments they require to lead healthier lives. Join us in making healthcare accessible and saving lives through your compassionate support."
+    "price": 475.00,
+    "description": "Medications can be life-saving, but they can also be costly. Your generous $475.00 donation helps cover the expenses of essential prescription medications for those who cannot afford them. Your contribution directly impacts the health and well-being of individuals, ensuring they receive the treatments they require to lead healthier lives. Join us in making healthcare accessible and saving lives through your compassionate support."
   },
   {
     "id": 7,
     "title": "Food Pantry Essentials",
     "images": {
-      "home_card_img": "/images/food.png",
-      "donation_card_img": "/images/food-2.png",
-      "details_img": "/images/food-details.png"
+      "image_1": "/images/food.png",
+      "image_2": "/images/food-2.png"
     },
     "category": "Food",
     "colors": {
@@ -115,16 +108,15 @@
       "card_bg": "rgba(248,113,71,0.15)",
       "cat_bg": "rgba(248,113,71,0.20)"
     },
-    "price": 350,
-    "description": "Hunger is an ongoing challenge for many families. Your $350 donation supports local food pantries by providing essential nutritious items. By contributing, you help ensure that nobody in our community goes to bed hungry. Together, we can make a difference, one meal at a time, and create a stronger, more resilient society where everyone has access to the sustenance they need."
+    "price": 350.00,
+    "description": "Hunger is an ongoing challenge for many families. Your $350.00 donation supports local food pantries by providing essential nutritious items. By contributing, you help ensure that nobody in our community goes to bed hungry. Together, we can make a difference, one meal at a time, and create a stronger, more resilient society where everyone has access to the sustenance they need."
   },
   {
     "id": 8,
     "title": "Books for Libraries",
     "images": {
-      "home_card_img": "/images/education.png",
-      "donation_card_img": "/images/education-2.png",
-      "details_img": "/images/education-details.png"
+      "image_1": "/images/education.png",
+      "image_2": "/images/education-2.png"
     },
     "category": "Education",
     "colors": {
@@ -132,16 +124,15 @@
       "card_bg": "rgba(255,68,74,0.15)",
       "cat_bg": "rgba(255,68,74,0.20)"
     },
-    "price": 372,
-    "description": "Promoting literacy is a noble cause, and your $372 donation helps achieve just that. By providing books to community libraries, you're fostering a love for reading and learning among people of all ages. Your contribution opens doors to knowledge and imagination, empowering individuals to explore new worlds and expand their horizons. Join us in building stronger, more informed communities through the gift of literature."
+    "price": 372.00,
+    "description": "Promoting literacy is a noble cause, and your $372.00 donation helps achieve just that. By providing books to community libraries, you're fostering a love for reading and learning among people of all ages. Your contribution opens doors to knowledge and imagination, empowering individuals to explore new worlds and expand their horizons. Join us in building stronger, more informed communities through the gift of literature."
   },
   {
     "id": 9,
     "title": "Food Pantry Essentials",
     "images": {
-      "home_card_img": "/images/food.png",
-      "donation_card_img": "/images/food-2.png",
-      "details_img": "/images/food-details.png"
+      "image_1": "/images/food.png",
+      "image_2": "/images/food-2.png"
     },
     "category": "Food",
     "colors": {
@@ -149,16 +140,15 @@
       "card_bg": "rgba(248,113,71,0.15)",
       "cat_bg": "rgba(248,113,71,0.20)"
     },
-    "price": 350,
-    "description": "Hunger is an ongoing challenge for many families. Your $350 donation supports local food pantries by providing essential nutritious items. By contributing, you help ensure that nobody in our community goes to bed hungry. Together, we can make a difference, one meal at a time, and create a stronger, more resilient society where everyone has access to the sustenance they need."
+    "price": 350.00,
+    "description": "Hunger is an ongoing challenge for many families. Your $350.00 donation supports local food pantries by providing essential nutritious items. By contributing, you help ensure that nobody in our community goes to bed hungry. Together, we can make a difference, one meal at a time, and create a stronger, more resilient society where everyone has access to the sustenance they need."
   },
   {
     "id": 10,
     "title": "Winter Hats and Gloves",
     "images": {
-      "home_card_img": "/images/clothing.png",
-      "donation_card_img": "/images/clothing-2.png",
-      "details_img": "/images/clothing-details.png"
+      "image_1": "/images/clothing.png",
+      "image_2": "/images/clothing-2.png"
     },
     "category": "Clothing",
     "colors": {
@@ -166,16 +156,15 @@
       "card_bg": "rgba(121,194,63,0.15)",
       "cat_bg": "rgba(121,194,63,0.20)"
     },
-    "price": 389,
-    "description": "Winter's chill can be unforgiving, especially for those without warm clothing. Your $389 donation helps provide winter hats and gloves, offering comfort and protection against the cold. Your act of kindness ensures that individuals in need can face the winter season with dignity and warmth. Together, we can make a difference, one cozy accessory at a time."
+    "price": 389.00,
+    "description": "Winter's chill can be unforgiving, especially for those without warm clothing. Your $389.00 donation helps provide winter hats and gloves, offering comfort and protection against the cold. Your act of kindness ensures that individuals in need can face the winter season with dignity and warmth. Together, we can make a difference, one cozy accessory at a time."
   },
   {
     "id": 11,
     "title": "Books for Libraries",
     "images": {
-      "home_card_img": "/images/education.png",
-      "donation_card_img": "/images/education-2.png",
-      "details_img": "/images/education-details.png"
+      "image_1": "/images/education.png",
+      "image_2": "/images/education-2.png"
     },
     "category": "Education",
     "colors": {
@@ -183,16 +172,15 @@
       "card_bg": "rgba(255,68,74,0.15)",
       "cat_bg": "rgba(255,68,74,0.20)"
     },
-    "price": 372,
-    "description": "Promoting literacy is a noble cause, and your $372 donation helps achieve just that. By providing books to community libraries, you're fostering a love for reading and learning among people of all ages. Your contribution opens doors to knowledge and imagination, empowering individuals to explore new worlds and expand their horizons. Join us in building stronger, more informed communities through the gift of literature."
+    "price": 372.00,
+    "description": "Promoting literacy is a noble cause, and your $372.00 donation helps achieve just that. By providing books to community libraries, you're fostering a love for reading and learning among people of all ages. Your contribution opens doors to knowledge and imagination, empowering individuals to explore new worlds and expand their horizons. Join us in building stronger, more informed communities through the gift of literature."
   },
   {
     "id": 12,
     "title": "Prescription Medications",
     "images": {
-      "home_card_img": "/images/health.png",
-      "donation_card_img": "/images/health-2.png",
-      "details_img": "/images/health-details.png"
+      "image_1": "/images/health.png",
+      "image_2": "/images/health-2.png"
     },
     "category": "Health",
     "colors": {
@@ -200,7 +188,7 @@
       "card_bg": "rgba(0,82,255,0.15)",
       "cat_bg": "rgba(0,82,255,0.20)"
     },
-    "price": 475,
-    "description": "Medications can be life-saving, but they can also be costly. Your generous $475 donation helps cover the expenses of essential prescription medications for those who cannot afford them. Your contribution directly impacts the health and well-being of individuals, ensuring they receive the treatments they require to lead healthier lives. Join us in making healthcare accessible and saving lives through your compassionate support."
+    "price": 475.00,
+    "description": "Medications can be life-saving, but they can also be costly. Your generous $475.00 donation helps cover the expenses of essential prescription medications for those who cannot afford them. Your contribution directly impacts the health and well-being of individuals, ensuring they receive the treatments they require to lead healthier lives. Join us in making healthcare accessible and saving lives through your compassionate support."
   }
 ]
