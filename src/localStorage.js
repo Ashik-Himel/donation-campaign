@@ -16,3 +16,14 @@ export const setStorageItems = id => {
     return true;
   }
 }
+
+export const getStorageItems = () => {
+  let getItems = localStorage.getItem('donated-id');
+  let getItemsParse = null;
+  if (getItems) {
+    const tempParse = JSON.parse(getItems);
+    getItemsParse = [];
+    tempParse.forEach(item => getItemsParse.push(+item));
+  }
+  return getItemsParse;
+}
