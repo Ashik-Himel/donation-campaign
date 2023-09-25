@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "First Aid Kits",
-    "image": [
+    "images": [
       "/images/health.png",
       "/images/health-2.png",
       "/images/health-details.png"
@@ -19,7 +19,7 @@
   {
     "id": 2,
     "title": "School Supplies",
-    "image": [
+    "images": [
       "/images/education.png",
       "/images/education-2.png",
       "/images/education-details.png"
@@ -36,7 +36,7 @@
   {
     "id": 3,
     "title": "Warm Winter Coats",
-    "image": [
+    "images": [
       "/images/clothing.png",
       "/images/clothing-2.png",
       "/images/clothing-details.png"
@@ -53,7 +53,7 @@
   {
     "id": 4,
     "title": "Food Pantry Essentials",
-    "image": [
+    "images": [
       "/images/food.png",
       "/images/food-2.png",
       "/images/food-details.png"
@@ -70,7 +70,7 @@
   {
     "id": 5,
     "title": "Winter Hats and Gloves",
-    "image": [
+    "images": [
       "/images/clothing.png",
       "/images/clothing-2.png",
       "/images/clothing-details.png"
@@ -87,7 +87,7 @@
   {
     "id": 6,
     "title": "Prescription Medications",
-    "image": [
+    "images": [
       "/images/health.png",
       "/images/health-2.png",
       "/images/health-details.png"
@@ -104,7 +104,7 @@
   {
     "id": 7,
     "title": "Food Pantry Essentials",
-    "image": [
+    "images": [
       "/images/food.png",
       "/images/food-2.png",
       "/images/food-details.png"
@@ -121,7 +121,7 @@
   {
     "id": 8,
     "title": "Books for Libraries",
-    "image": [
+    "images": [
       "/images/education.png",
       "/images/education-2.png",
       "/images/education-details.png"
@@ -138,7 +138,7 @@
   {
     "id": 9,
     "title": "Food Pantry Essentials",
-    "image": [
+    "images": [
       "/images/food.png",
       "/images/food-2.png",
       "/images/food-details.png"
@@ -155,7 +155,7 @@
   {
     "id": 10,
     "title": "Winter Hats and Gloves",
-    "image": [
+    "images": [
       "/images/clothing.png",
       "/images/clothing-2.png",
       "/images/clothing-details.png"
@@ -172,7 +172,7 @@
   {
     "id": 11,
     "title": "Books for Libraries",
-    "image": [
+    "images": [
       "/images/education.png",
       "/images/education-2.png",
       "/images/education-details.png"
@@ -189,7 +189,7 @@
   {
     "id": 12,
     "title": "Prescription Medications",
-    "image": [
+    "images": [
       "/images/health.png",
       "/images/health-2.png",
       "/images/health-details.png"

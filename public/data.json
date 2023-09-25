@@ -2,11 +2,11 @@
   {
     "id": 1,
     "title": "First Aid Kits",
-    "image": [
-      "/images/health.png",
-      "/images/health-2.png",
-      "/images/health-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/health.png",
+      "donation_card_img": "/images/health-2.png",
+      "details_img": "/images/health-details.png"
+    },
     "category": "Health",
     "colors": {
       "text_color": "#0052FF",
@@ -19,11 +19,11 @@
   {
     "id": 2,
     "title": "School Supplies",
-    "image": [
-      "/images/education.png",
-      "/images/education-2.png",
-      "/images/education-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/education.png",
+      "donation_card_img": "/images/education-2.png",
+      "details_img": "/images/education-details.png"
+    },
     "category": "Education",
     "colors": {
       "text_color": "#FF444A",
@@ -36,11 +36,11 @@
   {
     "id": 3,
     "title": "Warm Winter Coats",
-    "image": [
-      "/images/clothing.png",
-      "/images/clothing-2.png",
-      "/images/clothing-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/clothing.png",
+      "donation_card_img": "/images/clothing-2.png",
+      "details_img": "/images/clothing-details.png"
+    },
     "category": "Clothing",
     "colors": {
       "text_color": "#79C23F",
@@ -53,11 +53,11 @@
   {
     "id": 4,
     "title": "Food Pantry Essentials",
-    "image": [
-      "/images/food.png",
-      "/images/food-2.png",
-      "/images/food-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/food.png",
+      "donation_card_img": "/images/food-2.png",
+      "details_img": "/images/food-details.png"
+    },
     "category": "Food",
     "colors": {
       "text_color": "#F87147",
@@ -70,11 +70,11 @@
   {
     "id": 5,
     "title": "Winter Hats and Gloves",
-    "image": [
-      "/images/clothing.png",
-      "/images/clothing-2.png",
-      "/images/clothing-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/clothing.png",
+      "donation_card_img": "/images/clothing-2.png",
+      "details_img": "/images/clothing-details.png"
+    },
     "category": "Clothing",
     "colors": {
       "text_color": "#79C23F",
@@ -87,11 +87,11 @@
   {
     "id": 6,
     "title": "Prescription Medications",
-    "image": [
-      "/images/health.png",
-      "/images/health-2.png",
-      "/images/health-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/health.png",
+      "donation_card_img": "/images/health-2.png",
+      "details_img": "/images/health-details.png"
+    },
     "category": "Health",
     "colors": {
       "text_color": "#0052FF",
@@ -104,11 +104,11 @@
   {
     "id": 7,
     "title": "Food Pantry Essentials",
-    "image": [
-      "/images/food.png",
-      "/images/food-2.png",
-      "/images/food-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/food.png",
+      "donation_card_img": "/images/food-2.png",
+      "details_img": "/images/food-details.png"
+    },
     "category": "Food",
     "colors": {
       "text_color": "#F87147",
@@ -121,11 +121,11 @@
   {
     "id": 8,
     "title": "Books for Libraries",
-    "image": [
-      "/images/education.png",
-      "/images/education-2.png",
-      "/images/education-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/education.png",
+      "donation_card_img": "/images/education-2.png",
+      "details_img": "/images/education-details.png"
+    },
     "category": "Education",
     "colors": {
       "text_color": "#FF444A",
@@ -138,11 +138,11 @@
   {
     "id": 9,
     "title": "Food Pantry Essentials",
-    "image": [
-      "/images/food.png",
-      "/images/food-2.png",
-      "/images/food-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/food.png",
+      "donation_card_img": "/images/food-2.png",
+      "details_img": "/images/food-details.png"
+    },
     "category": "Food",
     "colors": {
       "text_color": "#F87147",
@@ -155,11 +155,11 @@
   {
     "id": 10,
     "title": "Winter Hats and Gloves",
-    "image": [
-      "/images/clothing.png",
-      "/images/clothing-2.png",
-      "/images/clothing-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/clothing.png",
+      "donation_card_img": "/images/clothing-2.png",
+      "details_img": "/images/clothing-details.png"
+    },
     "category": "Clothing",
     "colors": {
       "text_color": "#79C23F",
@@ -172,11 +172,11 @@
   {
     "id": 11,
     "title": "Books for Libraries",
-    "image": [
-      "/images/education.png",
-      "/images/education-2.png",
-      "/images/education-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/education.png",
+      "donation_card_img": "/images/education-2.png",
+      "details_img": "/images/education-details.png"
+    },
     "category": "Education",
     "colors": {
       "text_color": "#FF444A",
@@ -189,11 +189,11 @@
   {
     "id": 12,
     "title": "Prescription Medications",
-    "image": [
-      "/images/health.png",
-      "/images/health-2.png",
-      "/images/health-details.png"
-    ],
+    "images": {
+      "home_card_img": "/images/health.png",
+      "donation_card_img": "/images/health-2.png",
+      "details_img": "/images/health-details.png"
+    },
     "category": "Health",
     "colors": {
       "text_color": "#0052FF",
