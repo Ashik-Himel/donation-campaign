@@ -43,7 +43,7 @@ const Donation = () => {
           <div className="container flex justify-center items-center h-full">
             <div>
               <img src="/images/empty-box.png" alt="Empty Box" className="max-w-[200px] mx-auto" />
-              <h2 className="text-4xl font-semibold mt-6">No donation found!</h2>
+              <h2 className="text-4xl font-semibold mt-6 text-center">No donation found!</h2>
             </div>
           </div>
         </section> : null

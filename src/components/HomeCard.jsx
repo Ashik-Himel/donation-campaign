@@ -14,7 +14,7 @@ const HomeCard = ({ data }) => {
       <img
         src={images.image_1}
         alt="Card Thumbnail"
-        className="w-full rounded-t-lg"
+        className="w-full h-full max-h-[250px] md:max-h-[200px] object-cover object-center rounded-t-lg"
       />
       <div className="p-6">
         <span

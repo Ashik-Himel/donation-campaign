@@ -19,7 +19,7 @@ const DonationDetails = () => {
       setData(findData);
     }
   }, [id, allData]);
-  const { images, price, title, description } = data;
+  const { images, colors, price, title, description } = data;
 
   const handleClick = (clickId) => {
     const setIdValue = setStorageItems(clickId);
@@ -45,9 +45,9 @@ const DonationDetails = () => {
       <section>
         <div className="container">
           <div className="relative mb-8">
-            <img src={images?.image_1} alt="Details Image" className="w-full rounded-md max-h-[60vh] object-cover" />
+            <img src={images?.image_2} alt="Details Image" className="w-full rounded-md h-full max-h-[60vh] object-cover object-center" />
             <div className="absolute bottom-0 left-0 right-0 bg-[rgba(11,11,11,0.50)] rounded-b-md">
-              <button className="btn bg-[#FF444A] text-white hover:bg-[#FF444A] border-[#FF444A] hover:border-[#FF444A] normal-case text-base m-4 sm:m-6" onClick={() => handleClick(id)}>Donate ${price}</button>
+              <button className="btn text-white normal-case text-base m-4 sm:m-6" style={{backgroundColor: colors?.text_color, borderColor: colors?.text_color}} onClick={() => handleClick(id)}>Donate ${price}</button>
             </div>
           </div>
           <h2 className="text-3xl font-bold text-black mb-2">{title}</h2>

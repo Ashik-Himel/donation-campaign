@@ -7,7 +7,7 @@ const DonationCard = ({data}) => {
 
   return (
     <div className='flex flex-col sm:flex-row rounded-lg' style={{backgroundColor: colors.card_bg}}>
-      <img src={images?.image_2} alt="Card Thumbnail" className='rounded-t-lg sm:rounded-none sm:rounded-s-lg' />
+      <img src={images?.image_1} alt="Card Thumbnail" className='rounded-t-lg sm:rounded-none sm:rounded-s-lg w-full h-full max-h-[250px] sm:max-h-full sm:w-5/12 object-cover object-center' />
       <div className='p-6'>
         <span className="font-medium inline-block px-2 py-0.5 rounded mb-2" style={{ backgroundColor: colors.cat_bg, color: colors.text_color }}>{category}</span>
         <h2 className='text-black text-xl font-semibold mb-2'>{title}</h2>

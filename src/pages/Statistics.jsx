@@ -31,15 +31,15 @@ const Statistics = () => {
               width={"100%"}
               height={'inherit'}
             />
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-10 pb-12 -mt-12 sm:-mt-16">
-              <div className="flex items-center gap-2">
-                <span className="font-semibold">Your Donation</span>
-                <span className="inline-block w-[70px] h-[10px] bg-[#00C49F] rounded"></span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold">Total Donation</span>
-                <span className="inline-block w-[70px] h-[10px] bg-[#FF444A] rounded"></span>
-              </div>
+          </div>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-10 pb-12 absolute top-[450px] sm:top-[580px] left-0 right-0 -z-10">
+            <div className="flex items-center gap-2">
+              <span className="font-semibold">Your Donation</span>
+              <span className="inline-block w-[70px] h-[10px] bg-[#00C49F] rounded"></span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-semibold">Total Donation</span>
+              <span className="inline-block w-[70px] h-[10px] bg-[#FF444A] rounded"></span>
             </div>
           </div>
         </div>

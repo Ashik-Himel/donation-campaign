@@ -15,7 +15,7 @@ const Layout = () => {
     fetch('/data.json')
     .then(res => res.json())
     .then(data => {
-      const filteredData = data.filter(item => item.category.trim().toLowerCase() === cat.trim().toLowerCase());
+      const filteredData = data.filter(item => item.category.trim().toLowerCase().includes(cat.trim().toLowerCase()));
       setData(filteredData);
     })
   }
