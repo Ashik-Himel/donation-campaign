@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
     <main>
+      <Helmet>
+        <title>Page Not Found - Donation Campaign</title>
+      </Helmet>
       <div className="container">
         <div className="h-[100vh] flex justify-center items-center text-center">
           <div>

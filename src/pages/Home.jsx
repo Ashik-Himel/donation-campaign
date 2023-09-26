@@ -2,6 +2,7 @@ import { useContext } from "react";
 import HomeCard from "../components/HomeCard";
 import { AllData } from "../Layout";
 import { useLoaderData } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const initialData = useLoaderData();
@@ -10,6 +11,9 @@ const Home = () => {
   
   return (
     <main>
+      <Helmet>
+        <title>Home - Donation Campaign</title>
+      </Helmet>
       <section className="my-16">
       <div className="container">
         {

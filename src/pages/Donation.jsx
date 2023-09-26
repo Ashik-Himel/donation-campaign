@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { getStorageItems } from "../localStorage";
 import DonationCard from "../components/DonationCard";
 import { useLoaderData } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Donation = () => {
   const donatedIDs = getStorageItems() || [];
@@ -15,6 +16,9 @@ const Donation = () => {
 
   return (
     <main className="my-8">
+      <Helmet>
+        <title>Donation - Donation Campaign</title>
+      </Helmet>
       {
         matchedIDs?.length ? <section>
           <div className="container">

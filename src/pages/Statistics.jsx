@@ -1,6 +1,7 @@
 import { getStorageItems } from "../localStorage";
 import { useEffect, useState } from "react";
 import { Chart } from "react-google-charts";
+import { Helmet } from "react-helmet-async";
 
 const Statistics = () => {
   const [donated, setDonated] = useState(0);
@@ -22,6 +23,9 @@ const Statistics = () => {
 
   return (
     <main className="my-8">
+      <Helmet>
+        <title>Statistics - Donation Campaign</title>
+      </Helmet>
       <section>
         <div className="container">
           <div className="absolute top-[100px] sm:top-[50px] left-0 right-0 h-[400px] sm:h-[600px] -z-10">
