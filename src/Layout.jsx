@@ -9,14 +9,14 @@ const Layout = () => {
   const [data, setData] = useState(loaderData);
 
   const handleSearch = cat => {
-    const filteredData = loaderData.filter(item => item.category.trim().toLowerCase().includes(cat.trim().toLowerCase()));
+    const filteredData = loaderData.filter(item => item.category.trim().toLowerCase() === cat.trim().toLowerCase());
     setData(filteredData);
   }
 
   return (
     <>
       <Header handleSearch={handleSearch}></Header>
-      <AllData.Provider value={data}>
+      <AllData.Provider value={{data, setData}}>
         <Outlet></Outlet>
       </AllData.Provider>
     </>
