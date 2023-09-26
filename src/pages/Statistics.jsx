@@ -15,47 +15,35 @@ const Statistics = () => {
     backgroundColor: 'none'
   };
   useEffect( () => {
-    const donatedPercentage = getStorageItems()?.length;
+    const donatedPercentage = getStorageItems()?.length || 0;
     setDonated(donatedPercentage);
   }, []);
 
   return (
-    <main className="my-12">
-      {
-        donated ? <section>
-          <div className="container">
-            <div className="absolute top-[100px] sm:top-[50px] left-0 right-0 h-[400px] sm:h-[600px]">
-              <Chart
-                chartType="PieChart"
-                data={data}
-                options={options}
-                width={"100%"}
-                height={'inherit'}
-              />
-              <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-10 pb-12 relative -top-12 sm:-top-16">
-                <div className="flex items-center gap-3">
-                  <span className="font-semibold">Your Donation</span>
-                  <span className="inline-block w-[70px] h-[10px] bg-[#00C49F]"></span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="font-semibold">Total Donation</span>
-                  <span className="inline-block w-[70px] h-[10px] bg-[#FF444A]"></span>
-                </div>
+    <main className="my-8">
+      <section>
+        <div className="container">
+          <div className="absolute top-[100px] sm:top-[50px] left-0 right-0 h-[400px] sm:h-[600px] -z-10">
+            <Chart
+              chartType="PieChart"
+              data={data}
+              options={options}
+              width={"100%"}
+              height={'inherit'}
+            />
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-10 pb-12 -mt-12 sm:-mt-16">
+              <div className="flex items-center gap-2">
+                <span className="font-semibold">Your Donation</span>
+                <span className="inline-block w-[70px] h-[10px] bg-[#00C49F] rounded"></span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-semibold">Total Donation</span>
+                <span className="inline-block w-[70px] h-[10px] bg-[#FF444A] rounded"></span>
               </div>
             </div>
           </div>
-        </section> : null
-      }
-
-      {
-        !donated ? <section className="h-[calc(100vh-245px)]">
-          <div className="container flex justify-center items-center h-full">
-            <div>
-              <h2 className="text-3xl font-semibold text-black">No statistics found!</h2>
-            </div>
-          </div>
-        </section> : null
-      }
+        </div>
+      </section>
     </main>
   );
 };

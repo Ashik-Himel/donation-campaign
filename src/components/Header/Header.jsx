@@ -1,8 +1,9 @@
 import { useLocation } from "react-router-dom";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import PropTypes from 'prop-types'
 
-const Header = () => {
+const Header = ({handleSearch}) => {
   let location = useLocation();
 
   return (
@@ -10,11 +11,15 @@ const Header = () => {
       <div className="container">
         <Navbar></Navbar>
         {
-          location.pathname === '/' && <Hero></Hero>
+          location.pathname === '/' && <Hero handleSearch={handleSearch}></Hero>
         }
       </div>
     </header>
   );
 };
+
+Header.propTypes = {
+  handleSearch: PropTypes.func
+}
 
 export default Header;

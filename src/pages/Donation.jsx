@@ -1,22 +1,26 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getStorageItems } from "../localStorage";
-import { AllData } from "../Layout";
 import DonationCard from "../components/DonationCard";
 
 const Donation = () => {
   const donatedIDs = getStorageItems();
-  const allData = useContext(AllData);
-  const [matchedIDs, setMatchedIDs] = useState([]);
+  const [allData, setAllData] = useState([]);
   const [isAll, setIsAll] = useState(false);
+  const [matchedIDs, setMatchedIDs] = useState([]);
+  useEffect( () => {
+    fetch('/data.json')
+    .then(res => res.json())
+    .then(data => setAllData(data));
+  }, []);
   useEffect( () => {
     if (allData.length > 0) {
       const matched = allData.filter(data => donatedIDs?.includes(data.id));
       setMatchedIDs(matched);
     }
-  }, []);
+  }, [allData]);
 
   return (
-    <main className="my-12">
+    <main className="my-8">
       {
         matchedIDs?.length ? <section>
           <div className="container">
@@ -38,7 +42,8 @@ const Donation = () => {
         !matchedIDs?.length ? <section className="h-[calc(100vh-245px)]">
           <div className="container flex justify-center items-center h-full">
             <div>
-              <h2 className="text-3xl font-semibold text-black">No donation found!</h2>
+              <img src="/images/empty-box.png" alt="Empty Box" className="max-w-[200px] mx-auto" />
+              <h2 className="text-4xl font-semibold mt-6">No donation found!</h2>
             </div>
           </div>
         </section> : null
