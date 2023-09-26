@@ -10,6 +10,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    loader: () => fetch('/data.json'),
     errorElement: <Error></Error>,
     children: [
       {
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
       {
         path: "/donation",
         element: <Donation></Donation>,
+        loader: () => fetch('/data.json')
       },
       {
         path: "/statistics",
@@ -27,6 +29,7 @@ export const router = createBrowserRouter([
       {
         path: "/details/:id",
         element: <DonationDetails></DonationDetails>,
+        loader: () => fetch('/data.json')
       },
     ],
   },

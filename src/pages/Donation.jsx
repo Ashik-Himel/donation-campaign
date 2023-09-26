@@ -1,22 +1,16 @@
 import { useEffect, useState } from "react";
 import { getStorageItems } from "../localStorage";
 import DonationCard from "../components/DonationCard";
+import { useLoaderData } from "react-router-dom";
 
 const Donation = () => {
-  const donatedIDs = getStorageItems();
-  const [allData, setAllData] = useState([]);
+  const donatedIDs = getStorageItems() || [];
+  const allData = useLoaderData();
   const [isAll, setIsAll] = useState(false);
   const [matchedIDs, setMatchedIDs] = useState([]);
   useEffect( () => {
-    fetch('/data.json')
-    .then(res => res.json())
-    .then(data => setAllData(data));
-  }, []);
-  useEffect( () => {
-    if (allData.length > 0) {
-      const matched = allData.filter(data => donatedIDs?.includes(data.id));
-      setMatchedIDs(matched);
-    }
+    const matched = allData.filter(data => donatedIDs?.includes(data.id));
+    setMatchedIDs(matched);
   }, [allData]);
 
   return (

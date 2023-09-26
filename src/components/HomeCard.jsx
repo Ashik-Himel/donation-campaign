@@ -1,15 +1,14 @@
 import PropTypes from "prop-types";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HomeCard = ({ data }) => {
   const { id, images, category, title, colors } = data;
-  const navigate = useNavigate();
 
   return (
-    <div
+    <Link
       className="rounded-lg cursor-pointer"
       style={{ backgroundColor: colors.card_bg }}
-      onClick={() => navigate(`/details/${id}`)}
+      to={`/details/${id}`}
     >
       <img
         src={images.image_1}
@@ -30,7 +29,7 @@ const HomeCard = ({ data }) => {
           {title}
         </h2>
       </div>
-    </div>
+    </Link>
   );
 };
 

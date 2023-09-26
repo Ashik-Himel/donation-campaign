@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import { useState } from 'react';
 
 const Hero = ({handleSearch}) => {
-  const [inputValue, setInputValue] = useState('hi');
+  const [inputValue, setInputValue] = useState('');
 
   return (
     <section className="py-24">

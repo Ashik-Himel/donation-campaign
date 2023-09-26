@@ -4,6 +4,11 @@ import { Chart } from "react-google-charts";
 
 const Statistics = () => {
   const [donated, setDonated] = useState(0);
+  useEffect( () => {
+    const donatedPercentage = getStorageItems()?.length || 0;
+    setDonated(donatedPercentage);
+  }, []);
+  
   let data = [
     ["Donation", "Percentage"],
     ["Your Donation", donated],
@@ -14,10 +19,6 @@ const Statistics = () => {
     colors: ["#00C49F", "#FF444A"],
     backgroundColor: 'none'
   };
-  useEffect( () => {
-    const donatedPercentage = getStorageItems()?.length || 0;
-    setDonated(donatedPercentage);
-  }, []);
 
   return (
     <main className="my-8">
@@ -32,7 +33,7 @@ const Statistics = () => {
               height={'inherit'}
             />
           </div>
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-10 pb-12 absolute top-[450px] sm:top-[580px] left-0 right-0 -z-10">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-10 pb-12 absolute top-[485px] sm:top-[615px] left-0 right-0 -z-10">
             <div className="flex items-center gap-2">
               <span className="font-semibold">Your Donation</span>
               <span className="inline-block w-[70px] h-[10px] bg-[#00C49F] rounded"></span>

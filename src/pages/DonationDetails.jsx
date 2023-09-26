@@ -1,24 +1,17 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 import { setStorageItems } from "../localStorage";
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 
 const DonationDetails = () => {
   const { id } = useParams();
-  const [allData, setAllData] = useState([]);
-  const [data, setData] = useState([]);
-  useEffect( () => {
-    fetch('/data.json')
-    .then(res => res.json())
-    .then(data => setAllData(data));
-  }, []);
+  const allData = useLoaderData();
+  const [data, setData] = useState({});
   useEffect(() => {
-    if (allData.length > 0) {
-      const findData = allData.find((item) => item.id == id);
-      setData(findData);
-    }
-  }, [id, allData]);
+    const findData = allData.find((item) => item.id == id);
+    setData(findData);
+  }, [allData]);
   const { images, colors, price, title, description } = data;
 
   const handleClick = (clickId) => {
